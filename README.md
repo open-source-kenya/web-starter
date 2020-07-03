@@ -87,4 +87,6 @@ Check on [issues](https://github.com/ChrisAchinga/web-starter-template/issues) t
 
 ## Deployment
 
-I used netlify to deploy this: <https://webtemp.netlify.app/>
+There are many ways on how you would deploy your node-based site, including GitHub pages and Netlify among others.
+
+In this project, I used netlify to deploy this: <https://webtemp.netlify.app/>
