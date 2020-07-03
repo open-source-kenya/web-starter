@@ -1,20 +1,20 @@
 {
-  "name": "bootstrap-npm-starter",
-  "version": "1.1.0",
-  "description": "Demo project for building a Bootstrap powered site via npm.",
+  "name": "web-starter-template",
+  "version": "1.0.0",
+  "description": "Demo project for building a basic node site, using bootstrap, ci",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap-npm-starter.git"
+    "url": "git+https://github.com/ChrisAchinga/web-starter-template.git"
   },
   "bugs": {
-    "url": "https://github.com/Chryler/Bootsrap-npm-template/issues"
+    "url": "https://github.com/ChrisAchinga/web-starter-template/issues"
   },
-  "homepage": "https://github.com/Chryler/Bootsrap-npm-template#readme",
+  "homepage": "https://github.com/ChrisAchinga/web-starter-template#readme",
   "scripts": {
     "build": "npm run css",
-    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
-    "css-prefix": "postcss --replace assets/css/starter.css --use autoprefixer --map",
-    "css-purge": "purgecss --css assets/css/starter.css --content index.html --output assets/css/",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/bootstrap/",
+    "css-prefix": "postcss --replace assets/css/bootstrap/starter.css --use autoprefixer --map",
+    "css-purge": "purgecss --css assets/css/bootstrap/starter.css --content index.html --output assets/css/bootstrap/",
     "css": "npm run css-compile && npm run css-prefix",
     "start": "serve --listen 3000",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
