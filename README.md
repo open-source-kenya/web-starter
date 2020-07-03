@@ -2,9 +2,7 @@
 
 ## Project Status
 
-[![Build Status](https://travis-ci.com/ChrisAchinga/js-environment.svg?branch=master)](https://travis-ci.com/ChrisAchinga/js-environment)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6c7c6fe1-ff2c-4284-a90c-8a5b4c670622/deploy-status)](https://app.netlify.com/sites/webtemp/deploys)
+[![Build Status](https://travis-ci.com/ChrisAchinga/js-environment.svg?branch=master)](https://travis-ci.com/ChrisAchinga/js-environment), [![Netlify Status](https://api.netlify.com/api/v1/badges/6c7c6fe1-ff2c-4284-a90c-8a5b4c670622/deploy-status)](https://app.netlify.com/sites/webtemp/deploys)
 
 This project is from [Bootstrap npm starter template](https://github.com/twbs/bootstrap-npm-starter)
 
