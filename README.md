@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.com/ChrisAchinga/js-environment.svg?branch=master)](https://travis-ci.com/ChrisAchinga/js-environment)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6c7c6fe1-ff2c-4284-a90c-8a5b4c670622/deploy-status)](https://app.netlify.com/sites/webtemp/deploys)
+
 This project is from [Bootstrap npm starter template](https://github.com/twbs/bootstrap-npm-starter)
 
 My aim is to create a ready-to-use project structure (using node, bootstrap, and simple HTML/CSS), to save time on making a number of decisions on what to use and what not to use.
@@ -46,7 +48,7 @@ To run the project locally/development mode, use
 npm start
 ```
 
-## Running The Projct
+## Running The Project
 
 ### Clone The Repo
 
@@ -82,3 +84,7 @@ npm start
 ### NOTE
 
 Check on [issues](https://github.com/ChrisAchinga/web-starter-template/issues) to find issues that need help.
+
+## Deployment
+
+I used netlify to deploy this: <https://webtemp.netlify.app/>
