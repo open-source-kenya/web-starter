@@ -1,4 +1,4 @@
-# Javascript Environment
+# Web starter Template
 
 ## Project Status
 
@@ -10,8 +10,75 @@ My aim is to create a ready-to-use project structure (using node, bootstrap, and
 
 ## Using The Template
 
-1. Click on the "Use Template Button" or clone it using
+### Click on the "Use Template Button"
+
+This will prompt you to create a new repo from your account using the project's files.
+
+### Install the dependencies
+
+Ensure that you are in working folder/directory. Install the dependencies by running:
+
+```node
+npm install
+```
+
+### Build bootstrap css
+
+To get a built bootstrap css, run
+
+```node
+npm run build
+```
+
+This will create a new directory
+
+```shell
+assets/css/bootstrap/starter.css
+```
+
+Where the compiled bootstrap css will be added
+
+### Run Locally
+
+To run the project locally/development mode, use
+
+```node
+npm start
+```
+
+## Running The Projct
+
+### Clone The Repo
 
 ```git
-git clone 
+git clone https://github.com/ChrisAchinga/web-starter-template.git
 ```
+
+### Install dependencies
+
+```node
+npm install
+```
+
+### Build CSS
+
+```node
+npm run build
+```
+
+### Run the project
+
+```node
+npm start
+```
+
+#### The project will run on <http://localhost:3000>
+
+## Contributing to the Project
+
+1. Fork the Project.
+2. After adding/updating/fixing an issue, create pull request
+
+### NOTE
+
+Check on [issues](https://github.com/ChrisAchinga/web-starter-template/issues) to find issues that need help.
