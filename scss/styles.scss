@@ -1,0 +1,7 @@
+// variable
+$secondary: #f4f4f4;
+
+// import custom style
+@import 'custom';
+// import bootstrap core files
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
